@@ -1,10 +1,6 @@
 import React from 'react';
-import './App.css';
+import ImageGallery from './pages/ImageGallery';
 
-const App = () => (
-  <div className="App">
-      Hello world!
-    </div>
-);
+const App = () => <ImageGallery />;
 
 export default App;
